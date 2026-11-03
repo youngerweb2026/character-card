@@ -1,0 +1,3 @@
+interface:
+  display_name: "角色卡2.0"
+  short_description: "看图分析角色定位、外貌与服装，转为中文提示词后纯文生图生成角色卡"

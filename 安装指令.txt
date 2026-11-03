@@ -1,0 +1,10 @@
+请帮我安装 GitHub 上的「角色卡2.0」（character-card）Skill。
+
+仓库：https://github.com/youngerweb2026/character-card
+Skill 目录：skills/character-card
+
+请先识别当前操作系统和本 Agent 实际支持的用户级 Skills 安装目录，优先使用原生 Skill 安装器；如果安装器不可用或缺少 Python，请根据环境自动改用 Git、macOS/Linux 的 curl/unzip 或 Windows PowerShell 下载，不要仅因缺少 Python 就停止。完整安装 skills/character-card 目录及其全部文件，保留 SKILL.md 和 agents/openai.yaml，不要只复制 SKILL.md。
+
+如果已有同名 Skill，先比较：内容相同则保留，内容不同则备份后更新，不影响其他 Skill。安装完成后核对来源和文件完整性，检查本 Agent 是否能识别，告诉我实际安装位置、调用方法及是否需要重启或重新加载。如果本 Agent 不支持自定义 Skills，请如实说明。
+
+只执行安装，不启动角色分析或图片生成。本 Skill 的流程是：原图分析角色定位、外貌和服装，整理成完整中文提示词后纯文生图，生成阶段不传入任何图片。
